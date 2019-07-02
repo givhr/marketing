@@ -5,8 +5,10 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
+import React, { Component } from "react"
 import styled from "styled-components"
+import Nav from "./Nav"
+import Footer from "./Footer"
 
 class Layout extends Component {
   render() {

@@ -1,6 +1,5 @@
 import { Link } from "gatsby"
 import React from "react"
-import "./navbar.scss"
 import styled from "styled-components"
 
 if (typeof window !== "undefined") {
