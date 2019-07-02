@@ -11,9 +11,9 @@ const Header = () => (
   <HeaderWrapper className="navbar-container">
     <Link to="/#title">givhr logo</Link>
     <Link to="/#features">features</Link>
-    <Link to="/#about-me">how it works</Link>
-    <Link to="/#projects">use cases</Link>
-    <Link to="/#contact-me">pricing</Link>
+    <Link to="/#how-it-works">how it works</Link>
+    <Link to="/#use-cases">use cases</Link>
+    <Link to="/#pricing">pricing</Link>
   </HeaderWrapper>
 )
 
@@ -25,8 +25,7 @@ export const HeaderWrapper = styled.div`
   margin: 0;
   width: 100%;
   display: flex;
-  background-color: ${({ theme, error }) =>
-    error ? theme.primary14 : theme.primary13};
+  background-color: ${({ theme }) => theme.primary1};
   text-align: center;
   h1 {
     color: ${({ theme, error }) => (error ? theme.primary14 : theme.primary13)};
