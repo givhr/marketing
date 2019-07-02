@@ -9,7 +9,6 @@
 import React from "react"
 import { ThemeProvider } from "styled-components"
 import { GlobalStyles } from "./src/styles/GlobalStyle"
-
 import App from "./src/containers/App"
 
 export const wrapRootElement = ({ element }) => (
