@@ -2,10 +2,10 @@ import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 
-if (typeof window !== "undefined") {
-  // eslint-disable-next-line global-require
-  require("smooth-scroll")('a[href*="#"]', { offset: 100 })
-}
+// if (typeof window !== "undefined") {
+//   // eslint-disable-next-line global-require
+//   require("smooth-scroll")('a[href*="#"]', { offset: 100 })
+// }
 const Header = () => (
   <HeaderWrapper className="navbar-container">
     <Link to="/#title">givhr logo</Link>
